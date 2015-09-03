@@ -1,0 +1,31 @@
+{
+  "name": "static-file-server",
+  "version": "0.0.4",
+  "description": "Small multi-file static server",
+  "main": "src/smfs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "static",
+    "file",
+    "server",
+    "smfs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManRueda/static-file-server.git"
+  },
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManRueda/static-file-server/issues"
+  },
+  "homepage": "https://github.com/ManRueda/static-file-server#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "get-port": "^1.0.0",
+    "internal-ip": "^1.0.1",
+    "mime": "^1.3.4"
+  }
+}
